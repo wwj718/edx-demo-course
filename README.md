@@ -1,3 +1,9 @@
+#edx示范课程
+*  fork自官方的示例（默认安装的课程）
+*  压缩成`tar.gz`格式后，可以导入到studio：tar -zcvf edx-demo-course.tar.gz /tmp/edx-demo-course
+*  在studio中可修改定制，之后导出为纯文本，进行版本管理
+*  如此一来课程内容就是可编程的了
+
 Open edX Demonstration Course
 =============================
 
