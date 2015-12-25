@@ -4,6 +4,14 @@
 *  在studio中可修改定制，之后导出为纯文本，进行版本管理
 *  如此一来课程内容就是可编程的了
 
+#Todo
+*  可定制化地导入课程
+```bash
+  cd /var/tmp
+  git clone https://github.com/wwj718/edx-demo-course
+  sudo -u www-data /edx/bin/python.edxapp /edx/app/edxapp/edx-platform/manage.py cms --settings=aws import /edx/var/edxapp/data  /var/tmp/edx-demo-course
+```
+
 Open edX Demonstration Course
 =============================
 
